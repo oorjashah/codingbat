@@ -8,6 +8,6 @@ def lone_sum(a, b, c):
     return result
 
 
-print(lone_sum(1, 2, 3))
-print(lone_sum(3, 2, 3))
-print(lone_sum(3, 3, 3))
+print(lone_sum(1, 2, 3)) #answer: 6
+print(lone_sum(3, 2, 3)) #answer: 2 
+print(lone_sum(3, 3, 3)) #answer: 0

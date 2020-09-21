@@ -3,7 +3,7 @@ def cigar_party(cigars, is_weekend):
     return is_weekend or (not is_weekend and 40 <= cigars <= 60)
 
 
-print(cigar_party(30, False))
-print(cigar_party(40, False))
-print(cigar_party(50, False))
-print(cigar_party(70, True))
+print(cigar_party(30, False)) #False
+print(cigar_party(40, False)) #True
+print(cigar_party(50, False)) #True
+print(cigar_party(70, True)) #True
